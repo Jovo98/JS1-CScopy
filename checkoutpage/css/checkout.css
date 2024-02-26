@@ -1,0 +1,480 @@
+header {
+    margin: 1rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header i {
+    color: #ACBAEA;
+}
+
+#checkoutImage {
+
+    width: 150px;
+    height: 200px;
+
+}
+
+#totalPrice {
+    margin: 2rem 4rem 2rem 7rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+#cartContainer {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#cartContainer span {
+    display: flex;
+    flex-direction: row;
+}
+
+#cartDisplay {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkoutInfo {
+    margin-left: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.cartStyle {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.removeItem {
+    color:black;
+}
+
+.logo-section {
+    width: 120px;
+    height: 56px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+.warranties {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(172, 186, 234, 1);
+    width: 370px;
+    justify-content: center;
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 8px
+}
+
+.warranties i {
+    font-size: 1rem;
+}
+
+.warranties-content, .warranties-content-last {
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 92px;
+    height: 90px;
+    font-size: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.warranties-content {
+    border-right: 1px solid black;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 2rem 0 2rem;
+}
+
+.personal-info {
+    margin: 2rem 2rem 0 2rem;
+    width: 370px;
+}
+
+.personal-info-2 {
+    margin: 2rem 2rem 0 2rem;
+    width: 185px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.payment i {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.grey-text, .personal-info label, .personal-info-2 label {
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 0.5rem;
+}
+
+.form-required {
+    color: red;
+}
+
+.form-attributes {
+    width: 370px;
+    height: 36px;
+}
+
+.form-attributes-2 {
+    width: 180px;
+    height: 36px;
+}
+
+.payment-select {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.payment-select i {
+    font-size: 2rem;
+}
+
+.payment-select span {
+    color: var(--neutral);
+    margin-left: 1rem;
+}
+
+.circle {
+    border: 2px solid var(--neutral);
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    background: transparent;
+}
+
+.circle:hover {
+    background-color: var(--primary);
+}
+
+.circle:active {
+    border: 2px solid var(--primary);
+    background-color: var(--neutral);
+}
+
+.fa-cc-paypal {
+    margin-left: 6rem;
+}
+
+.summary {
+    width: 370px;
+    height: 220px;
+    background-color: var(--neutral);
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.summary img {
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.summary div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.text-grey {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.underline {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 44px;
+    top: 308px;
+    border: 1px solid red;
+    border-radius: 32px;
+    color: reD;
+    font-size: 0.75rem;
+    width: 14px;
+    height: 14px;
+}
+
+.submit-button {
+    margin: 4rem 2rem 1rem 2rem;
+}
+
+.submit-button button {
+    width: 370px;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox {
+    margin: 1rem 2rem 2rem 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.checkbox label {
+    color: var(--neutral);
+}
+
+.submit-button button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--neutral);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    margin-top: 48px;
+    gap: 3rem;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.75rem;
+    color: var(--primary)
+}
+
+.footer-follow {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon-fb {
+    color: #3B5998;
+}
+
+.icon-tw {
+    color: #1DA1F2;
+}
+
+.icon-ig {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icons-desktop {
+    display: none;
+}
+
+.summary-img-2 {
+    display: none;
+}
+
+.discount {
+    border-radius: 8px;
+    margin: 2rem 2rem 2rem 2rem;
+    display: none;
+    width: 470px;
+    height: 100px;
+    background-color: var(--neutral);
+}
+
+.discount form {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.discount input {
+    width: 330px;
+}
+
+.discount button {
+    border: none;
+    background-color: var(--secondary);
+    color: var(--neutral);
+    width: 100px;
+    height: 36px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--neutral);
+}
+
+/*FOOTER END*/
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    footer {
+        width: 100%;
+    }
+
+    header {
+        margin: 2rem 4rem 2rem 4rem;
+        justify-content: space-evenly;
+    }
+
+    header i {
+        color: #ACBAEA;
+        font-size: 2rem;
+    }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2 div{
+        font-size: 1.25rem;
+    }
+   
+    .section-2 i {
+        font-size: 2.5rem;
+    }
+
+    .form-attributes {
+        width: 410px;
+    }
+
+    .form-attributes-2 {
+        width: 200px;
+    }
+
+    .summary {
+        width: 470px;
+        height: 320px;
+    }
+
+    .summary-img-1 {
+        display: none;
+    }
+
+    .summary-img-2 {
+        display: block;
+    }
+
+    .summary div {
+        font-size: 1.75rem;
+    }
+
+    .warranties {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 3.25rem;
+        margin-right: 3.25rem;
+        justify-content: center;
+    }
+
+    .submit-button button {
+        width: 410px;
+        height: 46px;
+    }
+
+    .discount {
+        display: block;
+    }
+
+    h1 {
+        display: block;
+    }
+
+    #close {
+        right: 500px;
+        top: 235px;
+    }
+    /* Your styles for the large breakpoint here */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
+
+
+
+
+

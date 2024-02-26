@@ -1,0 +1,537 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--primary);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+ul {
+    list-style-type: none;
+}
+
+ul span {
+    width: 324px;
+}
+
+.price {
+    color: white;
+    font-weight: bold;
+}
+
+.discountedPrice {
+    color: red;
+    font-weight: bold;
+}
+
+ul li {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+#titles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#titles h2 {
+    margin-top: 1rem;
+    margin-left:1rem;
+}
+#titles p {
+    margin-left: 1rem;
+}
+
+img {
+    width: 300px;
+    height: 450px;
+}
+
+.header ul {
+    display: none;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.fa-bars {
+    color: var(--secondary);
+    font-size: 1rem;
+}
+
+.icon-cart-desktop {
+    display: none;
+    font-size: 1.25rem;
+}
+
+.fa-cart-shopping {
+    color: var(--secondary);
+}
+
+.logo {
+    margin-top: 5px;
+    width: 93px;
+    height: 40px;
+    border-radius: 0;
+}
+
+.search-bar-desktop {
+    margin-left: 6rem;
+    margin-right: 12rem;
+    align-items: center;
+    width: 700px;
+    height: 40px;
+    background-color: rgba(255,255,255, 1);
+    border-radius:  8px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: var(--secondary);
+    font-size: 14px;
+    display: none;
+}
+
+.sign-in {
+    display:none;
+}
+
+.sign-in-button {
+    background-color: var(--secondary);
+    width: 118px;
+    height: 44px;
+    margin-right: 4rem;
+    color: var(--primary);
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.search-bar {
+    margin: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 325px;
+    height: 40px;
+    background-color: rgba(255,255,255, 1);
+    border-radius:  8px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: var(--secondary);
+    font-size: 14px;
+}
+
+.desktop-home-about {
+    display: none;
+}
+
+.search-icon {
+    margin-left: 1rem;
+}
+
+textarea {
+    height: 19px;
+    width: 190px;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+.movies {
+    display: flex;
+    justify-content: center;
+
+
+}
+h2 {
+    color: var(--neutral);
+    font-size: 1.5rem;
+}
+
+
+h3 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--neutral);
+    font-size: 1.5rem;
+}
+
+h4 {
+    color: var(--neutral);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.desktop-home-about {
+    position: absolute;
+    width: 800px;
+    top: 46px;
+    left: 200px;
+}
+
+.desktop-home-about p {
+    font-size: 2rem;
+    color: var(--neutral);
+    margin-bottom: 4rem;
+}
+
+.banner-button {
+    color: black;
+    background-color: var(--primary);
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 400px;
+    height: 60px;
+    border: none;
+}
+
+.banner-button-style {
+    text-align: center;
+}
+
+.genre-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.genre-buttons button {
+    font-weight: bold;
+    color: var(--primary);
+
+}
+
+.genre-buttons-desktop {
+    display:none;
+    gap: 1rem;
+}
+
+button {
+    color: rgba(255,255,255, 0.4);
+    width: 75px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255, 0.4)
+}
+
+button:active {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+button:hover {
+    color: var(--neutral);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+
+.active-button {
+    border:none;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.movie-title {
+    margin:0;
+    color: var(--neutral);
+    overflow-wrap: break-word;
+}
+
+.button-watch {
+    width:100px;
+    height: 18px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 0;
+    font-weight: bold;
+}
+.button-watch:hover {
+    color: white;
+}
+
+img {
+    border-radius: 0.5rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.fa-star {
+    color: var(--primary);
+}
+
+.ratings {
+    color: rgba(255,255,255, 0.6);
+}
+
+.title-wgy {
+    margin-left: 2rem;
+    margin-top:  0;
+    color: var(--primary);
+}
+
+.forgot-to-watch {
+    margin-bottom: 0;
+}
+
+.show-all-button {
+    background-color: var(--primary);
+    color: black;
+    border:none;
+}
+
+
+
+.slideshow-2 {
+    display: flex;
+    justify-content:center;
+    padding-top: 1.5rem;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+
+footer ul {
+    margin-top: 48px;
+    gap: 3rem;
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    font-size: 0.75rem;
+    color: var(--primary)
+}
+
+.footer-follow {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: rgba(255,255,255, 0.6)
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.6);
+}
+
+.icon-fb {
+    color: #3B5998;
+}
+
+.icon-tw {
+    color: #1DA1F2;
+}
+
+.icon-ig {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-icons-desktop {
+    display: none;
+}
+
+.see-more-button {
+    background-color: rgba(255,255,255, 0.3);
+}
+
+.show-all-button {
+    background-color: rgba(255,255,255, 0.3);
+    color: rgba(255,255,255, 0.5)
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .header {
+        width: 100%;
+        height: 3.5rem;
+        justify-content: flex-start;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .icon-cart-desktop {
+        display: block;
+    }
+
+    .genres-desktop {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .genre-buttons button {
+        width: 110px;
+        height: 40px;
+    }
+
+    .genre-buttons-desktop button {
+        width: 110px;
+        height: 40px;
+    }
+
+    .genre-buttons {
+        gap: 1.5rem;
+    }
+
+    .genre-buttons-desktop {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .prev {
+        display: none;
+    }
+
+    .next {
+        display: none;
+    }
+
+    .search-bar-desktop {
+        margin-right: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        width: 112px;
+        height: 48px;
+    }
+
+    .icon-bars, .icon-cart {
+        display: none;
+    }
+
+    .sign-in {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .header ul {
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .header ul li:hover {
+        color: var(--neutral);
+    }
+
+    .genre-section {
+        margin-left: 3.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .random-movies {
+        margin-left: 3.25rem;
+        font-size: 2rem;
+    }
+
+    .top-img-avengers {
+        display: none;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: var(--neutral);
+    }
+    header {
+        z-index: 1;
+    }
+
+    .top-img-wall-e {
+        display: block;
+        margin-top: 3rem;
+        border: 1px solid var(--secondary);
+    }
+
+    .show-all-button {
+        margin-right: 3.25rem;
+    }
+
+    .desktop-home-about {
+        display: block;
+    }
+    /* Your styles for the large breakpoint here */
+}
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    .search-bar-desktop {
+        margin-right: 10rem;
+    }
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    .search-bar-desktop {
+        margin-right: 20rem;
+    }
+    /* Your styles for the 2XL breakpoint here */
+}
+
+
