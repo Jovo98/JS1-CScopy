@@ -91,6 +91,6 @@ checkoutButton.addEventListener("click", () => {
     if (localStorage.length === 0) {
         alert("No movies selected. Select a movie please:).");
     } else {
-        window.location.href = "../checkoutpage/checkout.html";
+        window.location.href = "checkout.html";
     }
 });

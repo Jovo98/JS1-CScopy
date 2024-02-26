@@ -32,7 +32,7 @@ async function fetchMovies(genre) {
         data.forEach((movies) => {
             if (!genre || (movies.onSale && movies.genre === genre) || (!movies.onSale && movies.genre === genre)) {
                 content.innerHTML += `
-                <a href="../productpage/product.html?id=${movies.id}">
+                <a href="product.html?id=${movies.id}">
                 <img src=${movies.image} />
                 <h2>${movies.title}</h2>   
                 <p class="price">${movies.onSale ? `<s>${movies.price}kr ,-</s>` : `${movies.price}kr ,-`}</p>
